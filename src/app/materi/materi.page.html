@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Materi</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h4 class="text-center">Materi</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center">
+        <ion-button routerLink="/materi/pengenalan" routerDirection="root"
+          >Pengenalan</ion-button
+        >
+      </div>
+      <div class="col text-center">
+        <ion-button routerLink="/materi/indikator-as-ba" routerDirection="root"
+          >Indikator Asam Basa</ion-button
+        >
+      </div>
+      <div class="col text-center">
+        <ion-button routerLink="/materi/kurva-titrasi" routerDirection="root"
+          >Kurva itrasi Asam Basa</ion-button
+        >
+      </div>
+      <div class="col text-center">
+        <ion-button routerLink="/materi/praktikum" routerDirection="root"
+          >Praktikum</ion-button
+        >
+      </div>
+    </div>
+    <div class="col text-center">
+      <ion-button routerLink="/materi/video" routerDirection="root"
+        >Video</ion-button
+      >
+    </div>
+  </div>
+</ion-content>

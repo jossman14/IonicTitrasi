@@ -1,0 +1,60 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Main Menu</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col class="text-center">
+        <h3 id="judulMainMenu">Chemistry is Fun</h3>
+      </ion-col>
+    </ion-row>
+    <div class="row">
+      <div class="col-6">
+        <div class="text-center border border-primary rounded p-4">
+          <ion-button routerLink="/kd" routerDirection="root">KD</ion-button>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="text-center border border-primary rounded p-4">
+          <ion-button routerLink="/ipk" routerDirection="root">IPK</ion-button>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-2">
+      <div class="col-6">
+        <div class="text-center border border-primary rounded p-4">
+          <ion-button routerLink="/materi" routerDirection="root"
+            >Materi</ion-button
+          >
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="text-center border border-primary rounded p-4">
+          <ion-button routerLink="/uji" routerDirection="root">Uji</ion-button>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-2">
+      <div class="col-6">
+        <div class="text-center border border-primary rounded p-4">
+          <ion-button routerLink="/pengembang" routerDirection="root"
+            >dev
+          </ion-button>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="text-center border border-primary rounded p-4">
+          <ion-button routerLink="/kalkulator" routerDirection="root"
+            >kalkulator</ion-button
+          >
+        </div>
+      </div>
+    </div>
+  </ion-grid>
+</ion-content>
